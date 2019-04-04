@@ -25,7 +25,7 @@ function save($filename, $email)
 $res = dot(readline("Username (tanpa @gmail.com): "));  
 $sav = readline("Save kemana lur? (tanpa .txt): ");
 foreach($res as $val){
-    save($sav.".txt", $val); 
-    echo $val."\n"; 
+    save($sav.".txt", $val."@gmail.com"); 
+    echo $val."@gmail.com"."\n"; 
 } 
 ?>
